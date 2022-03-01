@@ -3,7 +3,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app.routing.module';
 
 import { BrowserModule } from '@angular/platform-browser';
-
+import { MatGridListModule } from '@angular/material'; 
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './component/shared/header/header.component';
@@ -19,6 +19,7 @@ import { ProductItemComponent } from './component/shopping-cart/product-list/pro
 import { LoginComponent } from './component/login/login.component';
 import { RegisterComponent } from './component/register/register.component';
 import { PageNotFoundComponent } from './component/shared/page-not-found/page-not-found.component';
+
 
 
 @NgModule({
@@ -45,7 +46,10 @@ import { PageNotFoundComponent } from './component/shared/page-not-found/page-no
     HttpClientModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatGridListModule,
+    
+    
 
     
   ],

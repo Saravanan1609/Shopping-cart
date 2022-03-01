@@ -9,7 +9,8 @@ import { WishlistService } from 'src/app/services/wishlist.service';
   templateUrl: './product-list.component.html',
   styleUrls: ['./product-list.component.css']
 })
-export class ProductListComponent implements OnInit {
+
+ export class ProductListComponent implements OnInit {
 
   productList: Product[] = []
   wishlist: number[] = []
